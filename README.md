@@ -8,6 +8,10 @@
 
 모델이 채택된 제작자분께는 해당 콘텐츠에 크레딧을 남겨드립니다.
 
+랜드마크는 색상별로 전부 만들 필요는 없습니다
+
+사람이 쉽게 색상을 인식할 수 있는 위치에 콘크리트 블록 텍스쳐를 사용하면됩니다.
+
 ## 지역목록 (일부 제외 가능성 있음)
 * [봉화군](https://github.com/monun/speculation-resource-pack/blob/main/assets/minecraft/models/item/bonghwa.json) - 각별
 * 임실군
@@ -33,3 +37,4 @@
 * 인천시
 * 광주시
 * 서울시
+* 포항시(dytro)
