@@ -1,0 +1,349 @@
+{
+  "__comment": "Designed by Heptagram with Cubik Studio - https://cubik.studio",
+  "textures": {
+    "roof": "minecraft:block/cyan_concrete",
+    "villa_wall": "item/villa_wall"
+  },
+  "elements": [
+    {
+      "__comment": "Box1",
+      "from": [
+        2,
+        0,
+        2
+      ],
+      "to": [
+        14,
+        10,
+        14
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            8.5,
+            2.5,
+            15,
+            8
+          ],
+          "texture": "#villa_wall",
+          "cullface": "down"
+        },
+        "up": {
+          "uv": [
+            8.5,
+            2.5,
+            15,
+            8
+          ],
+          "texture": "#villa_wall",
+          "cullface": "up"
+        },
+        "north": {
+          "uv": [
+            8.5,
+            2.5,
+            15,
+            8
+          ],
+          "texture": "#villa_wall"
+        },
+        "south": {
+          "uv": [
+            1,
+            2.5,
+            7.5,
+            8
+          ],
+          "texture": "#villa_wall"
+        },
+        "west": {
+          "uv": [
+            8.5,
+            2.5,
+            15,
+            8
+          ],
+          "texture": "#villa_wall"
+        },
+        "east": {
+          "uv": [
+            8.5,
+            2.5,
+            15,
+            8
+          ],
+          "texture": "#villa_wall"
+        }
+      }
+    },
+    {
+      "__comment": "Box7",
+      "from": [
+        -0.5,
+        11,
+        0
+      ],
+      "to": [
+        8,
+        12.5,
+        16
+      ],
+      "rotation": {
+        "origin": [
+          8,
+          12.5,
+          0
+        ],
+        "axis": "z",
+        "angle": 22.5
+      },
+      "faces": {
+        "down": {
+          "uv": [
+            0,
+            0,
+            8.5,
+            16
+          ],
+          "texture": "#roof",
+          "rotation": 180
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            8.5,
+            16
+          ],
+          "texture": "#roof",
+          "rotation": 180
+        },
+        "north": {
+          "uv": [
+            16,
+            6,
+            7.5,
+            4.5
+          ],
+          "texture": "#roof",
+          "cullface": "north"
+        },
+        "south": {
+          "uv": [
+            8.5,
+            6,
+            0,
+            4.5
+          ],
+          "texture": "#roof",
+          "cullface": "south"
+        },
+        "west": {
+          "uv": [
+            0,
+            4.5,
+            16,
+            6
+          ],
+          "texture": "#roof",
+          "rotation": 180
+        },
+        "east": {
+          "uv": [
+            0,
+            4.5,
+            16,
+            6
+          ],
+          "texture": "#roof",
+          "rotation": 180
+        }
+      }
+    },
+    {
+      "__comment": "Box7",
+      "from": [
+        8,
+        11,
+        0
+      ],
+      "to": [
+        16.5,
+        12.5,
+        16
+      ],
+      "rotation": {
+        "origin": [
+          8,
+          12.5,
+          16
+        ],
+        "axis": "z",
+        "angle": -22.5
+      },
+      "faces": {
+        "down": {
+          "uv": [
+            0,
+            0,
+            8.5,
+            16
+          ],
+          "texture": "#roof"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            8.5,
+            16
+          ],
+          "texture": "#roof"
+        },
+        "north": {
+          "uv": [
+            8.5,
+            6,
+            0,
+            4.5
+          ],
+          "texture": "#roof",
+          "cullface": "north"
+        },
+        "south": {
+          "uv": [
+            16,
+            6,
+            7.5,
+            4.5
+          ],
+          "texture": "#roof",
+          "cullface": "south"
+        },
+        "west": {
+          "uv": [
+            0,
+            4.5,
+            16,
+            6
+          ],
+          "texture": "#roof",
+          "rotation": 180
+        },
+        "east": {
+          "uv": [
+            0,
+            4.5,
+            16,
+            6
+          ],
+          "texture": "#roof",
+          "rotation": 180
+        }
+      }
+    },
+    {
+      "__comment": "Box1",
+      "from": [
+        5.5,
+        10,
+        2
+      ],
+      "to": [
+        10.5,
+        11,
+        14
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            5.5,
+            2,
+            10.5,
+            14
+          ],
+          "texture": "#villa_wall"
+        },
+        "north": {
+          "uv": [
+            5.5,
+            5,
+            10.5,
+            6
+          ],
+          "texture": "#villa_wall"
+        },
+        "south": {
+          "uv": [
+            5.5,
+            5,
+            10.5,
+            6
+          ],
+          "texture": "#villa_wall"
+        },
+        "west": {
+          "uv": [
+            2,
+            5,
+            14,
+            6
+          ],
+          "texture": "#villa_wall"
+        },
+        "east": {
+          "uv": [
+            2,
+            5,
+            14,
+            6
+          ],
+          "texture": "#villa_wall"
+        }
+      }
+    }
+  ],
+  "display": {
+    "gui": {
+      "rotation": [
+        22.5,
+        -45,
+        0
+      ],
+      "translation": [
+        0,
+        -2,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "head": {
+      "translation": [
+        0,
+        -31.3,
+        0
+      ],
+      "scale": [
+        1.5,
+        1.5,
+        1.5
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        -90,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        -6.26
+      ]
+    }
+  }
+}

@@ -1,0 +1,108 @@
+{
+	"__comment": "Designed by Heptagram with Cubik Studio - https://cubik.studio",
+	"textures": {
+		"bonghwa_wall": "item/bonghwa_wall",
+		"bonghwa_body": "item/bonghwa_body",
+		"bonghwa_top": "item/bonghwa_top"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "Box4",
+			"from": [ 3, 1, -15 ],
+			"to": [ 16, 14, -4 ],
+			"faces": {
+				"down": { "uv": [ 3, 4, 16, 15 ], "texture": "#bonghwa_body" },
+				"up": { "uv": [ 3, 1, 16, 12 ], "texture": "#bonghwa_body" },
+				"north": { "uv": [ 0, 2, 13, 15 ], "texture": "#bonghwa_body" },
+				"south": { "uv": [ 3, 2, 16, 15 ], "texture": "#bonghwa_body" },
+				"west": { "uv": [ 1, 2, 12, 15 ], "texture": "#bonghwa_body" },
+				"east": { "uv": [ 4, 2, 15, 15 ], "texture": "#bonghwa_body" }
+			}
+		},
+		{
+			"__comment": "Box4",
+			"from": [ 3, 1, 3 ],
+			"to": [ 16, 14, 31 ],
+			"faces": {
+				"down": { "uv": [ 3, 0, 16, 13 ], "texture": "#bonghwa_body" },
+				"up": { "uv": [ 3, 3, 16, 16 ], "texture": "#bonghwa_body" },
+				"north": { "uv": [ 0, 2, 13, 15 ], "texture": "#bonghwa_body" },
+				"south": { "uv": [ 3, 2, 16, 15 ], "texture": "#bonghwa_body" },
+				"west": { "uv": [ 3, 2, 16, 15 ], "texture": "#bonghwa_body" },
+				"east": { "uv": [ 0, 2, 13, 15 ], "texture": "#bonghwa_body" }
+			}
+		},
+		{
+			"__comment": "Box4",
+			"from": [ 0, 14, -16 ],
+			"to": [ 16, 16, 32 ],
+			"faces": {
+				"down": { "uv": [ 0, 0, 16, 16 ], "texture": "#bonghwa_wall" },
+				"up": { "uv": [ 0, 0, 16, 16 ], "texture": "#bonghwa_wall" },
+				"north": { "uv": [ 0, 0, 16, 2 ], "texture": "#bonghwa_wall" },
+				"south": { "uv": [ 0, 0, 16, 2 ], "texture": "#bonghwa_wall" },
+				"west": { "uv": [ 0, 0, 16, 2 ], "texture": "#bonghwa_wall" },
+				"east": { "uv": [ 0, 0, 16, 2 ], "texture": "#bonghwa_wall" }
+			}
+		},
+		{
+			"__comment": "Box4",
+			"from": [ 0, 0, -16 ],
+			"to": [ 16, 1, 32 ],
+			"faces": {
+				"down": { "uv": [ 0, 0, 16, 16 ], "texture": "#bonghwa_wall" },
+				"up": { "uv": [ 0, 0, 16, 16 ], "texture": "#bonghwa_wall" },
+				"north": { "uv": [ 0, 15, 16, 16 ], "texture": "#bonghwa_wall" },
+				"south": { "uv": [ 0, 15, 16, 16 ], "texture": "#bonghwa_wall" },
+				"west": { "uv": [ 0, 15, 16, 16 ], "texture": "#bonghwa_wall" },
+				"east": { "uv": [ 0, 15, 16, 16 ], "texture": "#bonghwa_wall" }
+			}
+		},
+		{
+			"__comment": "Box4",
+			"from": [ 0, 1, -16 ],
+			"to": [ 16, 14, -15 ],
+			"faces": {
+				"down": { "uv": [ 0, 15, 16, 16 ], "texture": "#bonghwa_wall" },
+				"up": { "uv": [ 0, 0, 16, 1 ], "texture": "#bonghwa_wall" },
+				"north": { "uv": [ 0, 2, 16, 15 ], "texture": "#bonghwa_wall" },
+				"south": { "uv": [ 0, 2, 16, 15 ], "texture": "#bonghwa_wall" },
+				"west": { "uv": [ 0, 2, 1, 15 ], "texture": "#bonghwa_wall" },
+				"east": { "uv": [ 15, 2, 16, 15 ], "texture": "#bonghwa_wall" }
+			}
+		},
+		{
+			"__comment": "Box4",
+			"from": [ 0, 1, 31 ],
+			"to": [ 16, 14, 32 ],
+			"faces": {
+				"down": { "uv": [ 0, 0, 16, 1 ], "texture": "#bonghwa_wall" },
+				"up": { "uv": [ 0, 15, 16, 16 ], "texture": "#bonghwa_wall" },
+				"north": { "uv": [ 0, 2, 16, 15 ], "texture": "#bonghwa_wall" },
+				"south": { "uv": [ 0, 2, 16, 15 ], "texture": "#bonghwa_wall" },
+				"west": { "uv": [ 15, 2, 16, 15 ], "texture": "#bonghwa_wall" },
+				"east": { "uv": [ 0, 2, 1, 15 ], "texture": "#bonghwa_wall" }
+			}
+		},
+		{
+			"__comment": "Box4",
+			"from": [ 6, 16, 4.5 ],
+			"to": [ 10, 20, 11.5 ],
+			"faces": {
+				"down": { "uv": [ 0, 0, 1, 1 ], "texture": "#bonghwa_top" },
+				"up": { "uv": [ 0, 15, 1, 16 ], "texture": "#bonghwa_top" },
+				"north": { "uv": [ 6, 12, 9.5, 14.5 ], "texture": "#bonghwa_top" },
+				"south": { "uv": [ 0, 15, 1, 16 ], "texture": "#bonghwa_top" },
+				"west": { "uv": [ 0, 0, 16, 16 ], "texture": "#bonghwa_top" },
+				"east": { "uv": [ 0, 15, 1, 16 ], "texture": "#bonghwa_top" }
+			}
+		}
+	],
+	"display": {
+		"fixed": {
+			"rotation":  [ -90, -90, 0 ],
+			"translation":  [ 0, 0, -12.52 ],
+			"scale":  [ 1.75, 1.75, 1.75 ]
+		}
+	}
+}

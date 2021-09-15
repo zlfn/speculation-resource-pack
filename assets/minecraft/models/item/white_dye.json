@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/white_dye"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1
+      },
+      "model": "item/white_villa"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2
+      },
+      "model": "item/white_building"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3
+      },
+      "model": "item/white_hotel"
+    }
+  ]
+}

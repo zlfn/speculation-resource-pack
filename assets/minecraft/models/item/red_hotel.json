@@ -1,0 +1,392 @@
+{
+  "__comment": "Designed by Heptagram with Cubik Studio - https://cubik.studio",
+  "textures": {
+    "base": "block/white_terracotta",
+    "roof": "minecraft:block/red_concrete",
+    "hotel_wall": "item/hotel_wall"
+  },
+  "elements": [
+    {
+      "__comment": "Box1",
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        4,
+        16
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#base",
+          "cullface": "down"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#base"
+        },
+        "north": {
+          "uv": [
+            0,
+            12,
+            16,
+            16
+          ],
+          "texture": "#base",
+          "cullface": "north"
+        },
+        "south": {
+          "uv": [
+            0,
+            12,
+            16,
+            16
+          ],
+          "texture": "#base",
+          "cullface": "south"
+        },
+        "west": {
+          "uv": [
+            0,
+            12,
+            16,
+            16
+          ],
+          "texture": "#base",
+          "cullface": "west"
+        },
+        "east": {
+          "uv": [
+            0,
+            12,
+            16,
+            16
+          ],
+          "texture": "#base",
+          "cullface": "east"
+        }
+      }
+    },
+    {
+      "__comment": "Box2",
+      "from": [
+        1,
+        4,
+        1
+      ],
+      "to": [
+        15,
+        21,
+        15
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0.5,
+            0.5,
+            7.5,
+            9
+          ],
+          "texture": "#hotel_wall",
+          "cullface": "up"
+        },
+        "south": {
+          "uv": [
+            0.5,
+            0.5,
+            7.5,
+            9
+          ],
+          "texture": "#hotel_wall",
+          "cullface": "up"
+        },
+        "west": {
+          "uv": [
+            0.5,
+            0.5,
+            7.5,
+            9
+          ],
+          "texture": "#hotel_wall",
+          "cullface": "up"
+        },
+        "east": {
+          "uv": [
+            0.5,
+            0.5,
+            7.5,
+            9
+          ],
+          "texture": "#hotel_wall",
+          "cullface": "up"
+        }
+      }
+    },
+    {
+      "__comment": "Box3",
+      "from": [
+        0.5,
+        21,
+        0.5
+      ],
+      "to": [
+        15.5,
+        23,
+        15.5
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            0.5,
+            0.5,
+            15.5,
+            15.5
+          ],
+          "texture": "#roof",
+          "cullface": "up"
+        },
+        "up": {
+          "uv": [
+            0.5,
+            0.5,
+            15.5,
+            15.5
+          ],
+          "texture": "#roof",
+          "cullface": "up"
+        },
+        "north": {
+          "uv": [
+            0.5,
+            9,
+            15.5,
+            11
+          ],
+          "texture": "#roof",
+          "cullface": "up"
+        },
+        "south": {
+          "uv": [
+            0.5,
+            9,
+            15.5,
+            11
+          ],
+          "texture": "#roof",
+          "cullface": "up"
+        },
+        "west": {
+          "uv": [
+            0.5,
+            9,
+            15.5,
+            11
+          ],
+          "texture": "#roof",
+          "cullface": "up"
+        },
+        "east": {
+          "uv": [
+            0.5,
+            9,
+            15.5,
+            11
+          ],
+          "texture": "#roof",
+          "cullface": "up"
+        }
+      }
+    },
+    {
+      "__comment": "Box3",
+      "from": [
+        3,
+        23,
+        2.5
+      ],
+      "to": [
+        13,
+        25,
+        13.5
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            3,
+            2.5,
+            13,
+            13.5
+          ],
+          "texture": "#roof",
+          "cullface": "up"
+        },
+        "north": {
+          "uv": [
+            3,
+            7,
+            13,
+            9
+          ],
+          "texture": "#roof",
+          "cullface": "up"
+        },
+        "south": {
+          "uv": [
+            3,
+            7,
+            13,
+            9
+          ],
+          "texture": "#roof",
+          "cullface": "up"
+        },
+        "west": {
+          "uv": [
+            2.5,
+            7,
+            13.5,
+            9
+          ],
+          "texture": "#roof",
+          "cullface": "up"
+        },
+        "east": {
+          "uv": [
+            2.5,
+            7,
+            13.5,
+            9
+          ],
+          "texture": "#roof",
+          "cullface": "up"
+        }
+      }
+    },
+    {
+      "__comment": "Box3",
+      "from": [
+        7,
+        25,
+        7
+      ],
+      "to": [
+        9,
+        29,
+        9
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            7,
+            7,
+            9,
+            9
+          ],
+          "texture": "#roof",
+          "cullface": "up"
+        },
+        "north": {
+          "uv": [
+            7,
+            3,
+            9,
+            7
+          ],
+          "texture": "#roof",
+          "cullface": "up"
+        },
+        "south": {
+          "uv": [
+            7,
+            3,
+            9,
+            7
+          ],
+          "texture": "#roof",
+          "cullface": "up"
+        },
+        "west": {
+          "uv": [
+            7,
+            3,
+            9,
+            7
+          ],
+          "texture": "#roof",
+          "cullface": "up"
+        },
+        "east": {
+          "uv": [
+            7,
+            3,
+            9,
+            7
+          ],
+          "texture": "#roof",
+          "cullface": "up"
+        }
+      }
+    }
+  ],
+  "display": {
+    "gui": {
+      "rotation": [
+        22.5,
+        -45,
+        0
+      ],
+      "translation": [
+        0,
+        -2.086,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "head": {
+      "translation": [
+        0,
+        -31.3,
+        0
+      ],
+      "scale": [
+        1.5,
+        1.5,
+        1.5
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        -90,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        -10.43
+      ],
+      "scale": [
+        1.5,
+        1.5,
+        1.5
+      ]
+    }
+  }
+}
