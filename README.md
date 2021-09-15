@@ -3,8 +3,8 @@
 ## 랜드마크 모델링 참여 방법
 1. 마인크래프트 리소스팩과 호환이 가능한 프로그램(Cubik studio, block bench)을 이용하여 원하는 지역의 model.json 생성
 2. 저장소에 적용 요청하기 (아래 방법중 택 1)
-  * git을 이용해서 pull request
-  * `monun1010@gmail.com` 메일로 json파일과 texture 파일 전송
+   * git을 이용해서 pull request
+   * `monun1010@gmail.com` 메일로 json파일과 texture 파일 전송
 
 모델이 채택된 제작자분께는 해당 콘텐츠에 크레딧을 남겨드립니다.
 
