@@ -21,6 +21,12 @@
         "custom_model_data": 3
       },
       "model": "item/white_hotel"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 5
+      },
+      "model": "item/white_posco"
     }
   ]
 }
