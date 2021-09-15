@@ -9,7 +9,7 @@
 모델이 채택된 제작자분께는 해당 콘텐츠에 크레딧을 남겨드립니다.
 
 ## 지역목록 (일부 제외 가능성 있음)
-* 봉화군 - 각별
+* [봉화군](https://github.com/monun/speculation-resource-pack/blob/main/assets/minecraft/models/item/bonghwa.json) - 각별
 * 임실군
 * 영덕군
 * 의성군
